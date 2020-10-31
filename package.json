@@ -17,7 +17,7 @@
     "prebuild:ci": "run-p lint clean:dist",
     "build:ci": "cross-env npm run build:simple",
     "postbuild:ci": "cross-env-shell react-snap",
-    "build:dev": "cross-env PUBLIC_URL='/' npm run build:simple",
+    "build:dev": "cross-env PUBLIC_URL='https://bia.is/attestation/' npm run build:simple",
     "preserve": "npm run build",
     "serve": "serve dist",
     "serve:dist": "serve dist"
